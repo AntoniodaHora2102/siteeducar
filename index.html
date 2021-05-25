@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>EDUCAR</title>
+
+
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/component.css">
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Cabeçalho da página-->
+	<header class="layout-cabecalho layout-cabecalho--home">
+
+		<!-- Barra de menu-->
+		<div class="container">
+			
+			<nav class="navegacao">
+				
+				<img src="imagens/logo.png" width="35" height="35" alt="EDUCAR"> 	
+					
+
+
+				<div class="navegacao__menu">
+					<button class="botao-chaveador js-botao-chaveador">
+						<img src="imagens/bars.png">
+					</button>
+
+					<ul class="menu js-menu">
+						<!--
+						<li class="menu__item">
+							<a href="#"> Como funiciona</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Contato</a>
+						</li>
+						<li class="menu__item">
+							<a href="#planos">Planos e Preços</a>
+						</li> -->
+
+						<li class="menu__item  menu__item--botao">
+							<a href="anoletivo.html" class="botao botao--login"> Escolha o Ano Letivo </a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+	</header>	
+		<!--fim da barra de Menu-->
+
+
+	<!-- Chamanda Principal do Site
+	<section class="layout-chamada">
+		<div class="container">
+			
+			<div class="chamada">
+				<h1 class="chamada__titulo"> As finanças da sua empresa em ordem</h1>
+
+					<p class="chamada__subtitulo"> Software de Gestão simples e práticos para pequenos negócios. </p>
+
+				<div class="chamada__acao">
+						<a href="#planos" class="botao  botao--principal"> Conheça os Planos!</a>
+				</div>
+	
+			</div>
+	
+		</div>
+	</section>
+	Fim de chamada Principal-->
+
+	<section class="layout-chamada-carosel">
+		<div class="container">
+		
+		 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+		      <div class="item active">
+		        <img src="imagens/educar1.jpg" style="width: 1200px; height: 550px;" alt="Educação à Distância">
+		      </div>
+
+		      <div class="item">
+		        <img src="imagens/educar2.jpg" style="width: 1200px; height: 550px;" alt="Volta às Aulas">
+		      </div>
+		    
+		      <div class="item">
+		        <img src="imagens/educar3.jpg" style="width: 1200px; height: 550px;" alt="Aulas Online">
+		      </div>
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+	</section>
+
+
+<!--
+	<div class="layout-depoimento">
+		<div class="container">
+
+			<div class="depoimento">
+				<blockquote>
+					Livro A Chave Mestra do Universo – Pablo Marçal <br> A primeira coisa que você aprenderá neste livro é que cada pessoa é única e consequentemente tem o seu próprio território mental, que chamamos de mapa mental.
+				</blockquote>
+
+				<div class="depoimento__autor">
+					<img src="imagens/pablo-marcal.jpeg" width="180" height="180" alt="Pablo Marçal">
+					<p>Pablo Marçal</p>
+				</div>
+			</div>
+			
+		</div>
+	</div> -->
+
+	<div class="layout-videoAulas plano-videos">
+		<div class="container">
+
+			<a  class="video-titulo" href="https://www.youtube.com/c/osamiguinhosTV/videos"> 
+				<h2> + VídeoAulas </h2>
+			 </a>
+
+			<div class="row">
+				<div class="col-md-4">
+
+					<iframe width="320" height="245" src="https://www.youtube.com/embed/bX0th3tMF6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Aprendendo Robótica</iframe>
+
+                </div>
+
+                <div class="col-md-4">
+					<iframe width="320" height="245" src="https://www.youtube.com/embed/DBAuR19EiuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> Aprender o Alfabeto em Português</iframe>
+				</div>
+
+				 <div class="col-md-4">
+					<iframe width="320" height="245" src="https://www.youtube.com/embed/HfbphcK8roE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> Aprender o Alfabeto em Português</iframe>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+	</div>
+
+
+	<!-- Nóticias -->
+
+	<div class="layout-noticias">
+		<div class="container">
+
+			<a  class="video-titulo" href="https://g1.globo.com/ba/bahia/"> 
+				<h2> + Notícias </h2>
+			 </a>
+
+			<div class="row">
+
+				<div class="plano__noticia">
+
+					<div class="col-md-4  plano__noticia-imagem">
+
+						<img src="imagens/professor.jpg">
+
+						<a href="https://g1.globo.com/ba/bahia/noticia/2021/05/24/professores-das-escolas-particulares-de-salvador-decidem-nao-voltar-as-salas-de-aula-apos-nova-assembleia.ghtml">
+						<h4> <strong> Professores das escolas particulares de Salvador decidem não voltar às salas de aula após nova assembleia</strong></h4>
+						</a>
+										
+					</div>
+
+
+					<div class="col-md-4  plano__noticia-imagem">
+
+						<img src="imagens/hospital.jpg">
+
+						<a href="https://g1.globo.com/ba/bahia/noticia/2021/05/24/professores-das-escolas-particulares-de-salvador-decidem-nao-voltar-as-salas-de-aula-apos-nova-assembleia.ghtml">
+						<h4> <strong> Hospitais públicos de Salvador estão com 100% de ocupação das UTIs adulto para Covid-19; privados têm taxa superior a 80% </strong></h4>
+						</a>
+										
+					</div>
+
+					<div class="col-md-4  plano__noticia-imagem">
+
+						<img src="imagens/vacinas.jpg">
+
+						<a href="https://g1.globo.com/ba/bahia/noticia/2021/05/24/professores-das-escolas-particulares-de-salvador-decidem-nao-voltar-as-salas-de-aula-apos-nova-assembleia.ghtml">
+						<h4> <strong> Veja locais do mutirão para aplicação da 2ª dose da vacina contra a Covid-19 em Salvador, na terça. </strong></h4>
+						</a>
+										
+					</div>
+
+				</div>
+						
+			</div>
+	
+		</div>
+			
+	</div>
+
+
+
+		<!-- Planos
+		<div id="planos" class="layout-planos">
+			<div class="container">
+				<div class="row">
+
+					<!-- 1° Plano
+					<div class="col-md-4">
+						<article class="plano">
+							<h2 class="plano__cabecalhaco">AUTÔNOMO</h2>
+							  <div class="plano__preco">
+							  R$ 59/Mês</div>
+								<ul class="plano__caracteristicas">
+									<li>Até <strong>2 usuarios </strong></li>
+									<li><strong>500MB</strong> de armazenamento</li>
+									<li>Lancamentos ilimitado</li>
+									<li>Acesso Seguro</li>
+									<li>Sem Fidelidade</li>
+								</ul>
+							
+							<!-- rodapé dos Planos-
+							<footer class="plano__rodape">
+								<a href="assine.html" class="botao  botao--assinar"> ASSINAR </a>
+							</footer>
+
+						</article>
+					</div>
+
+					<!-- 2° Plano-
+					<div class="col-md-4">
+						<article class="plano  plano--mais-popular">
+							 <h2 class="plano__cabecalhaco"> MICRO</h2>
+								<div class="plano__preco">R$ 89/Mês</div>
+									<ul class="plano__caracteristicas">
+										<li>Até <strong>6 usuarios </strong></li>
+										<li><strong> 1 GB </strong> de armazenamento</li>
+										<li> Lancamentos ilimitado </li>
+										<li>Acesso Seguro</li>
+										<li>Sem Fidelidade</li>
+									</ul>
+							
+								<!-- rodapé dos Planos-
+								<footer class="plano__rodape">
+									<a href="https://twitter.com/VersosDaHora" class="botao  botao--assinar"> ASSINAR</a>
+								</footer>
+
+							</article>
+					</div>
+
+					<!-- 3° Plano-
+					<div class="col-md-4">
+						<article class="plano">
+							<h2 class="plano__cabecalhaco">EMPRESA</h2>
+								<div class="plano__preco">R$ 99/Mês</div>
+									<ul class="plano__caracteristicas">
+										<li>Até <strong>2 usuarios </strong></li>
+										<li><strong> 5 GB</strong> de armazenamento</li>
+										<li>Lancamentos ilimitado</li>
+										<li>Acesso Seguro</li>
+										<li>Sem Fidelidade</li>
+									</ul>
+							
+							<!-- rodapé dos Planos-
+							<footer class="plano__rodape">
+								<a href="https://pt-br.facebook.com/versodahora/" class="botao botao--assinar"> ASSINAR</a>
+							</footer>
+
+						</article>
+					</div>
+		
+				</div>
+			</div>
+		</div>
+		fim dos Planos-->
+
+		<footer class="layout__rodape">
+
+			<div class="container">
+				<p> &copy;EDUCAR. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+
+		<script src="javascript/app.js"></script>
+</body>
+
+
+</html>
